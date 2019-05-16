@@ -1,3 +1,5 @@
+# Readme : Binary Search Tree Implementation
+
 BinarySearchTree.java contains three classes:
 a. BinarySearchTree that implements Iterable
 b. static Entry class
