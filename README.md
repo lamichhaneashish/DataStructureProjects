@@ -47,5 +47,24 @@ Based on the run-time from the Timer class select method is efficient than sorta
 
 ## IA8: Insertion Sort vs Merge Sort Comaprison
 		
+## IA9 : Implementaiton of the diameter of a tree. ( Graph class is not included in this repo because it was Professor's code)
+
+Methods of IA9 class:
+a.diameter(g : Graph, s: int) : int
+Finds the maximum for the source node. Sets the node at maximum distance to to be a new source and runs the bfs algorithm from the
+new source to find the new maximum distance from there. Diameter is of a tree is the maximum distance of any node from the second source.
+Uses the helper method getFarthest_vertex to find the vertex that is farthest from the source node.
+@param g : Graph on which the algorithm is run.
+@param s : initial source node.
+@return : diameter of the tree (g).
+
+
+b. getFarthest_vertex(bfsoo : BFSOO, graph : Graph) : Vertex
+Helper method to find the vertex that is farthest from the source.
+Also updates the maximum distance between two vertices
+@param bfsoo : object to call bfsoo method getdistance().
+@param graph : graph on which bfsoo is run.
+@return : vertex that is farthest from the source node.
+
 
 
