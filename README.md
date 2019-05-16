@@ -40,3 +40,7 @@ element found (current). Keep track of the maximum consecutive elements found in
 max. if the current length is larger than max then replace
 max with current. Max is the length of longest streak of consecutive integers.
 @param A array of an integer
+
+## IA7 : Comparison of PriorityQueue and Java's Array.sort() to find the largest element in the list.
+IA7.java contains two methods : select(int[] arr, int k) and sortandSelect(int[] arr, int k).
+Based on the run-time from the Timer class select method is efficient than sortandSelect method.
