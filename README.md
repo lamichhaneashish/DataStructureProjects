@@ -1,5 +1,5 @@
 # DataStructureProjects
-This folder contains all programming assignments and projects that I did in SE3345  (Data Structures) class. 
+This folder contains all programming assignments and projects that I did in SE3345 (Data Structures)class in the Fall of 2018. I gained a good amount of knowledge about different data structures in programming languages from this class, including but not limited to List, Hashing, Tree, Graph, and so on. 
 
 ## SinglyLinkedList.java and DoublyLinkedList.java: 
 
