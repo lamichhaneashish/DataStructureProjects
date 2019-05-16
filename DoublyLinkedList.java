@@ -3,19 +3,18 @@ package axl173530;
 
 import java.util.Iterator;
 
+/**
+ * DoublyLinkedList class extends the singlylinked list and uses as many attributes of its as possible.
+ */
 public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
-
-
     static class Entry<E> extends SinglyLinkedList.Entry {
         SinglyLinkedList.Entry<E> previous;
-
         Entry(E x, SinglyLinkedList.Entry<E> next, SinglyLinkedList.Entry<E> previous) {
             super(x, next);
             this.previous = previous;
         }
     }
-
-
+    // Default constructor
     DoublyLinkedList() {
         super();
     }
@@ -25,6 +24,9 @@ public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
         return new DLLIterator();
     }
 
+    /**
+     * Iterator class for DoublyLinkedList also extends SinglyLinkedList iterator.
+     */
     protected class DLLIterator extends SinglyLinkedList.SLLIterator implements DoublyLinkedListIterator<T> {
 
         SinglyLinkedList.Entry<T> nxt;
@@ -53,15 +55,14 @@ public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
             cursor.next = ent;
             ((DoublyLinkedList.Entry) nxt).previous = ent;
             cursor = ent;
-            size ++;
+            size++;
         }
 
         @Override
         public void remove() {
             super.remove();
-            ((DoublyLinkedList.Entry)nxt).previous = prev;
+            ((DoublyLinkedList.Entry) nxt).previous = prev;
         }
-
 
     }
 
@@ -91,7 +92,9 @@ public class DoublyLinkedList<T> extends SinglyLinkedList<T> {
 
 interface DoublyLinkedListIterator<T> extends Iterator {
     boolean hasPrevious();
+
     T previous();
+
     void add(T ent);
 
 }
