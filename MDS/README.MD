@@ -1,4 +1,6 @@
-MDS (Multi Directional Search) allows to search a list using different criteria. In this implementation, a list can be searched using price and ID. 
+## MDS (Multi Directional Search) using HashSet and HashMap
+
+It allows to search a list using different criteria. In this implementation, a list can be searched using price and ID. 
 
 Item class has three attributes : 
 	a. id : integer to store item id.
