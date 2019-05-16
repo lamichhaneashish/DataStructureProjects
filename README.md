@@ -19,3 +19,6 @@ BoundedQueue allows adding element to the end of the queue and removing from the
   f. boolean isEmpty()   
   g. void clear()    
   h. void toArray(T[] a)
+  
+## IA2.java: 
+IA2 class has publicly available methods : intersect, union and difference that takes sorted list as parameter and executes the method accordingly. Intersect method finds common elements in both lists and enters them into the result list. Union lists all the elements in the list removing the duplicates. Difference finds the elements that are present in first list but not in the second list. 
