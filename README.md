@@ -44,3 +44,8 @@ max with current. Max is the length of longest streak of consecutive integers.
 ## IA7 : Comparison of PriorityQueue and Java's Array.sort() to find the largest element in the list.
 IA7.java contains two methods : select(int[] arr, int k) and sortandSelect(int[] arr, int k).
 Based on the run-time from the Timer class select method is efficient than sortandSelect method.
+
+## IA8: Insertion Sort vs Merge Sort Comaprison
+		
+
+
