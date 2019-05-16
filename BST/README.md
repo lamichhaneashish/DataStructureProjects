@@ -58,3 +58,10 @@ b. next(): Returns the next element in the binary search tree. ( traversal is in
 constructor of BSTIterator pushes every left entry to the stack of ancestors until the leftmost entry is reached. 
 
 
+# Readme : AVL Tree (extension of BST)
+
+AVL class is an extension of the BST class and creates the AVL tree. The class contains add and its helper methods: 
+a. Add method adds the element to the tree and checks if the balance is violated. If the balance is violated, then it performs either left or right rotation on the node where the balance is violated and restores the balance. 
+b. Update height method updates the height of the node after each addition
+c. Balance factor methods returns the balance factor of the current node. 
+
